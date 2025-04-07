@@ -1,0 +1,18 @@
+#gameContainer {
+    width: 600px;
+    height: 600px;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 24, 0.5);
+    position: relative;
+    overflow: hidden;
+}
+
+#player {
+    width: 64px;
+    height: 64px;
+    background-image: url('img/walk_down1.png');
+    background-size: 100%;
+    background-position: center;
+    position: absolute;
+    z-index: 1;
+}
